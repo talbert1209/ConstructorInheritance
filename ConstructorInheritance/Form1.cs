@@ -22,5 +22,10 @@ namespace ConstructorInheritance
         {
             var baseClass = new MyBaseClass("Titties");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var subClass = new MySubClass("Milk", 2);
+        }
     }
 }
